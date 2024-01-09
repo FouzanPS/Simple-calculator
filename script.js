@@ -7,7 +7,7 @@ function appendNumber(number) {
 }
 
 function appendOperator(operator) {
-    currentInput += ' ' + operator + ' ';
+    currentInput += operator;
     updateDisplay();
 }
 
